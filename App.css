@@ -1,0 +1,33 @@
+.app-bg{
+  background-color: #fcf8f8;
+}
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+  gap: 10px;
+}
+
+.post-card {
+  border-radius: 8px;
+    overflow: hidden; /* to prevent image overflowing on rounded corners */
+
+}
+.card-img-top {
+  object-fit: cover; /* Cover the entire space while maintaining aspect ratio */
+    height: 300px;
+}
+
+.icons-container{
+    display: flex;
+    
+}
+
+  .user-img{
+  width:30px;
+  height:30px;
+}
+
+.post-header{
+  display:flex;
+  align-items:center
+}
